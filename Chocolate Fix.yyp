@@ -34,12 +34,18 @@
   },
   "name":"Chocolate Fix",
   "resources":[
+    {"id":{"name":"test_coin","path":"objects/test_coin/test_coin.yy",},},
+    {"id":{"name":"test_tile","path":"objects/test_tile/test_tile.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"id":{"name":"BackTile_16","path":"sprites/BackTile_16/BackTile_16.yy",},},
+    {"id":{"name":"coin_26","path":"sprites/coin_26/coin_26.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
