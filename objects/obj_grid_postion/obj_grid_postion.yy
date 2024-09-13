@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"test_tile",
+  "%Name":"obj_grid_postion",
   "eventList":[],
   "managed":true,
-  "name":"test_tile",
+  "name":"obj_grid_postion",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BackTile_16",
-    "path":"sprites/BackTile_16/BackTile_16.yy",
+    "name":"spr_tile1",
+    "path":"sprites/spr_tile1/spr_tile1.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
