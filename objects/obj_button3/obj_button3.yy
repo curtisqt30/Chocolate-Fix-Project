@@ -8,8 +8,8 @@
   "name":"obj_button3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Test objects",
+    "path":"folders/Objects/Test objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
