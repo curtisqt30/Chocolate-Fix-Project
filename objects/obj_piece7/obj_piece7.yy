@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button2",
+  "%Name":"obj_piece7",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button2",
+  "name":"obj_piece7",
   "overriddenProperties":[],
   "parent":{
     "name":"Test objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_blue_diamond",
-    "path":"sprites/spr_blue_diamond/spr_blue_diamond.yy",
+    "name":"spr_yellow_circle",
+    "path":"sprites/spr_yellow_circle/spr_yellow_circle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

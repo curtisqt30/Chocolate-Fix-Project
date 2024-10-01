@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_piece3",
-    "path":"sprites/spr_piece3/spr_piece3.yy",
+    "name":"spr_blue_star",
+    "path":"sprites/spr_blue_star/spr_blue_star.yy",
   },
   "spriteMaskId":null,
   "visible":true,
