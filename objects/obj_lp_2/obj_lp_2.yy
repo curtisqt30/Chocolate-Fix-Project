@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_left_panel_bot",
+  "%Name":"obj_lp_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_left_panel_bot",
+  "name":"obj_lp_2",
   "overriddenProperties":[],
   "parent":{
     "name":"group1",
