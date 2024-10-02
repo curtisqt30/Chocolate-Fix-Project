@@ -84,9 +84,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_test_leftUI","path":"rooms/rm_test_leftUI/rm_test_leftUI.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_3x3","path":"rooms/rm_3x3/rm_3x3.yy",},},
-    {"roomId":{"name":"rm_test_leftUI","path":"rooms/rm_test_leftUI/rm_test_leftUI.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
