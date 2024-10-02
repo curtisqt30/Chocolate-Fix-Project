@@ -1,4 +1,4 @@
-// Settings for partial puzzle pieces
+ // Settings for partial puzzle pieces
 var piece_size = 69;   // Size of each puzzle piece (adjust if needed)
 var x_offset = 130;    // X offset for positioning
 var y_offset = 150;    // Y offset for positioning
@@ -7,15 +7,7 @@ var pieces_per_row = 3; // Number of puzzle pieces per row in the side panel
 var side_pieces = 9;    // Total number of pieces on the side
 
 // Shape settings:
-// 0 = Full 9x9
-// 1 = Short T
-// 2 = Short Inverted T
-// 3 = Upper Rectangle
-// 4 = T Shape 
-// 5 = Vertical Left Rectangle
-// 6 = Plus Shape
-// 7 = Left Vertical Line
-var set_shape = 2;
+var set_shape = global.lp_1;
 
 // Draw the full 9x9 grid
 if (set_shape == 0) {

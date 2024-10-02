@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_grid_tile_small",
-  "eventList":[],
+  "%Name":"obj_left_panel_controller",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_grid_tile_small",
+  "name":"obj_left_panel_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Side bar UI",
-    "path":"folders/Objects/Side bar UI.yy",
+    "name":"Side Panel",
+    "path":"folders/Objects/UI/Side Panel.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,11 +28,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_tile1_small",
-    "path":"sprites/spr_tile1_small/spr_tile1_small.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

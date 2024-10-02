@@ -8,8 +8,8 @@
   "name":"obj_left_panel_bot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Side bar UI",
-    "path":"folders/Objects/Side bar UI.yy",
+    "name":"group1",
+    "path":"folders/Objects/UI/Side Panel/group1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
