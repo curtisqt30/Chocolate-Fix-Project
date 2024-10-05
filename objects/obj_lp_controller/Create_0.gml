@@ -14,24 +14,33 @@
 // 11 = Diagonal Left (\)
 // 12 = Diagonal Right (/)
 // 13 = Plus (+)
+// Planned Shapes: tetris z shape, L shape, side ways T, cube, upside down T, sideways short t
 global.lp_shape_1 = 13;
 global.lp_shape_2 = 11;
 global.lp_shape_3 = 12;
+
+// Tile sprite
+global.lp_tile = spr_tile1_small; // currently set to test sprite, change later?
 
 // Room position settings
 global.lp_x_offset = 130;
 global.lp_y_offset = 150;
 
 // Size settings
-global.lp_piece_size = 69;
+global.lp_piece_size = 69; // based on spr_tile1_small which is 69 by 69
 
 instance_create_layer(0,0,"Instances",obj_lp_1)
 instance_create_layer(0,0,"Instances",obj_lp_2)
 instance_create_layer(0,0,"Instances",obj_lp_3)
 
 
+
+
 // Piece Rendering Settings
-// Undefined = NULL (no sprite)
+// This is done manually for now, but can create a puzzle template array
+// and have function read those templates and copy them here
+
+// Undefined is the same as NULL (no sprite)
 
 // panel layout 1 
 global.panel1 = [
