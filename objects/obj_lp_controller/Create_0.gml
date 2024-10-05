@@ -1,4 +1,3 @@
-
 // Shape Settings
 // -1 = No shape
 // 0 = Full 9x9
@@ -12,9 +11,12 @@
 // 8 = Horizontal line top
 // 9 = Horizontal line middle
 // 10 = Horizontal line bottom
-global.lp_shape_1 = 0;
-global.lp_shape_2 = 0;
-global.lp_shape_3 = 0;
+// 11 = Diagonal Left (\)
+// 12 = Diagonal Right (/)
+// 13 = Plus (+)
+global.lp_shape_1 = 13;
+global.lp_shape_2 = 11;
+global.lp_shape_3 = 12;
 
 // Room position settings
 global.lp_x_offset = 130;
@@ -23,9 +25,9 @@ global.lp_y_offset = 150;
 // Size settings
 global.lp_piece_size = 69;
 
-instance_create_layer(0,0,"Instances_1",obj_lp_1)
-instance_create_layer(0,0,"Instances_1",obj_lp_2)
-instance_create_layer(0,0,"Instances_1",obj_lp_3)
+instance_create_layer(0,0,"Instances",obj_lp_1)
+instance_create_layer(0,0,"Instances",obj_lp_2)
+instance_create_layer(0,0,"Instances",obj_lp_3)
 
 
 // Piece Rendering Settings

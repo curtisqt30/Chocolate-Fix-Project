@@ -107,5 +107,36 @@ function lp_draw_shape(shape_type, x_offset, y_offset, piece_size) {
 		        draw_sprite(spr_tile1_small, i, x_pos, y_pos);
 		    }
 		break;
+		
+		case 11: // Diagonal Left
+			for (var i = 0; i < 3; i++) {
+				var x_pos = x_offset + i * piece_size;
+				var y_pos = y_offset + i * piece_size;
+				draw_sprite(spr_tile1_small, 0, x_pos, y_pos); // Top-left to bottom-right diagonal
+			}
+		break;
+		
+		case 12: // Diagonal Right
+			for (var i = 0; i < 3; i++) {
+				var x_pos = x_offset + (2 - i) * piece_size; // Adjust x position for reverse diagonal
+				var y_pos = y_offset + i * piece_size;
+				draw_sprite(spr_tile1_small, 0, x_pos, y_pos); // Top-right to bottom-left diagonal
+			}
+		break;
+		
+		case 13: // Plus sign
+			// Horizontal middle line 
+			for (var i = 0; i < 3; i++) {
+				var x_pos = x_offset + (i * piece_size);
+				var y_pos = y_offset + piece_size; // Middle row
+				draw_sprite(spr_tile1_small, i, x_pos, y_pos);
+			}
+			// Vertical middle line 
+			for (var i = 0; i < 3; i += 2) { // Skip the middle row 
+				var x_pos = x_offset + piece_size; // Middle column
+				var y_pos = y_offset + (i * piece_size); // Top and bottom
+				draw_sprite(spr_tile1_small, i, x_pos, y_pos);
+			}
+		break;
 	}
 }

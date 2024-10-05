@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_lp_render_shape",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Left Panel rendering scripts",
+    "path":"folders/Scripts/Left Panel rendering scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
