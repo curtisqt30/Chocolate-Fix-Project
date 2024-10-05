@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Chocolate Fix",
   "resources":[
@@ -55,6 +55,7 @@
     {"id":{"name":"rm_test_leftUI","path":"rooms/rm_test_leftUI/rm_test_leftUI.yy",},},
     {"id":{"name":"scr_lp_render_pieces","path":"scripts/scr_lp_render_pieces/scr_lp_render_pieces.yy",},},
     {"id":{"name":"scr_lp_render_shape","path":"scripts/scr_lp_render_shape/scr_lp_render_shape.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"spr_blue_circle_small","path":"sprites/spr_blue_circle_small/spr_blue_circle_small.yy",},},
     {"id":{"name":"spr_blue_circle","path":"sprites/spr_blue_circle/spr_blue_circle.yy",},},
@@ -88,8 +89,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_test_leftUI","path":"rooms/rm_test_leftUI/rm_test_leftUI.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_test_leftUI","path":"rooms/rm_test_leftUI/rm_test_leftUI.yy",},},
     {"roomId":{"name":"rm_3x3","path":"rooms/rm_3x3/rm_3x3.yy",},},
   ],
   "templateType":"game",
