@@ -1,5 +1,5 @@
 function check_function() {
-    // Calculate the cell index based on row and column
+    // Calculate the cell index based on row and column.
     var index = global.object_row * 3 + global.object_col;
     
     switch (index) {
