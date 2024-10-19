@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lp_controller",
+  "%Name":"obj_hint_3",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_lp_controller",
+  "name":"obj_hint_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Side Panel",
-    "path":"folders/Objects/UI/Side Panel.yy",
+    "name":"group1",
+    "path":"folders/Objects/UI/Hints/group1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

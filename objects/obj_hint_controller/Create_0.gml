@@ -15,26 +15,23 @@
 // 12 = Diagonal Right (/)
 // 13 = Plus (+)
 // Planned Shapes: tetris z shape, L shape, side ways T, cube, upside down T, sideways short t
-global.lp_shape_1 = 13;
-global.lp_shape_2 = 11;
-global.lp_shape_3 = 12;
+global.hint_shape_1 = 0;
+global.hint_shape_2 = 2;
+global.hint_shape_3 = 0;
 
 // Tile sprite
-global.lp_tile = spr_tile1_small; // currently set to test sprite, change later?
+global.hint_tile = spr_tile1_small; // currently set to test sprite, change later?
 
 // Room position settings
-global.lp_x_offset = 130;
-global.lp_y_offset = 150;
+global.hint_x_offset = 130;
+global.hint_y_offset = 150;
 
 // Size settings
-global.lp_piece_size = 69; // based on spr_tile1_small which is 69 by 69
+global.hint_piece_size = 69; // based on spr_tile1_small which is 69 by 69
 
-instance_create_layer(0,0,"Instances",obj_lp_1)
-instance_create_layer(0,0,"Instances",obj_lp_2)
-instance_create_layer(0,0,"Instances",obj_lp_3)
-
-
-
+instance_create_layer(0,0,"Instances",obj_hint_1)
+instance_create_layer(0,0,"Instances",obj_hint_2)
+instance_create_layer(0,0,"Instances",obj_hint_3)
 
 // Piece Rendering Settings
 // This is done manually for now, but can create a puzzle template array
@@ -43,7 +40,7 @@ instance_create_layer(0,0,"Instances",obj_lp_3)
 // Undefined is the same as NULL (no sprite)
 
 // panel layout 1 
-global.panel1 = [
+global.hint1 = [
 	[spr_blue_diamond_small, 130, 150], // pos 1
 	[spr_blue_diamond_small, 199, 150], // pos 2
 	[spr_blue_diamond_small, 268, 150], // pos 3
@@ -56,10 +53,10 @@ global.panel1 = [
 ]
 
 // panel layout 2
-global.panel2 = [
+global.hint2 = [
 	[spr_blue_diamond_small, 130, 450], // pos 1
-	[spr_blue_diamond_small, 199, 450], // pos 2
-	[spr_blue_diamond_small, 268, 450], // pos 3
+	[undefined, 199, 450], // pos 2
+	[undefined, 268, 450], // pos 3
 	[spr_blue_diamond_small, 130, 519], // pos 4
 	[spr_yellow_diamond_small, 199, 519], // pos 5
 	[spr_blue_diamond_small, 268, 519], // pos 6
@@ -69,7 +66,7 @@ global.panel2 = [
 ]
 
 // panel layout 3
-global.panel3 = [
+global.hint3 = [
 	[undefined, 130, 750], // pos 1
 	[undefined, 199, 750], // pos 2
 	[undefined, 268, 750], // pos 3

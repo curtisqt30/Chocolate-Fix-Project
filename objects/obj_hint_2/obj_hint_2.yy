@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lp_3",
+  "%Name":"obj_hint_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_lp_3",
+  "name":"obj_hint_2",
   "overriddenProperties":[],
   "parent":{
     "name":"group1",
-    "path":"folders/Objects/UI/Side Panel/group1.yy",
+    "path":"folders/Objects/UI/Hints/group1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
