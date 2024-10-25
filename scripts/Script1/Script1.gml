@@ -39,13 +39,13 @@ function check_function() {
 function check_solved(){
 	var solved = true;
 	
-	if (obj_piece1_1.object_row != 0 || obj_piece1_1.object_col != 1) {
+	if (obj_piece1_circle.object_row != 0 || obj_piece1_circle.object_col != 1) {
         solved = false;
     }
-    if (obj_piece2_1.object_row != 1 || obj_piece2_1.object_col != 1) {
+    if (obj_piece2_circle.object_row != 1 || obj_piece2_circle.object_col != 1) {
         solved = false;
     }
-    if (obj_piece3_1.object_row != 1 || obj_piece3_1.object_col != 2) {
+    if (obj_piece3_circle.object_row != 1 || obj_piece3_circle.object_col != 2) {
         solved = false;
     }
 

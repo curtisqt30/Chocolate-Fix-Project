@@ -8,8 +8,8 @@
   "name":"obj_play_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"buttons",
+    "path":"folders/Objects/UI/buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
