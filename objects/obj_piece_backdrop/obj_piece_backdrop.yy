@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_play_button",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_piece_backdrop",
+  "eventList":[],
   "managed":true,
-  "name":"obj_play_button",
+  "name":"obj_piece_backdrop",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/UI/buttons.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_play_button",
-    "path":"sprites/spr_play_button/spr_play_button.yy",
+    "name":"spr_panel",
+    "path":"sprites/spr_panel/spr_panel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

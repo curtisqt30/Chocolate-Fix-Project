@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"small ver",
-    "path":"folders/Sprites/Test sprites/small ver.yy",
+    "path":"folders/Sprites/Test sprites/Pieces/small ver.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

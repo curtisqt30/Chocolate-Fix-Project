@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu_button",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_button_reset",
+  "eventList":[],
   "managed":true,
-  "name":"obj_menu_button",
+  "name":"obj_button_reset",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_menu_button",
-    "path":"sprites/spr_menu_button/spr_menu_button.yy",
+    "name":"spr_button_reset",
+    "path":"sprites/spr_button_reset/spr_button_reset.yy",
   },
   "spriteMaskId":null,
   "visible":true,
