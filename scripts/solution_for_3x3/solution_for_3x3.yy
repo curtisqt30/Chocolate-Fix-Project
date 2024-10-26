@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"solution_for_3x3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"solution_for_3x3",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
