@@ -7,4 +7,4 @@ object_col = floor((x - global.grid_x) / global.cell_width);
 //x = global.grid_x + (object_col * global.cell_width) + global.cell_width / 2;
 //y = global.grid_y + (object_row * global.cell_height) + global.cell_height / 2;
 
-solution_3x3_1();
+//solution_3x3_1();

@@ -81,6 +81,7 @@
     {"id":{"name":"scr_load_hint","path":"scripts/scr_load_hint/scr_load_hint.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"solution_for_3x3","path":"scripts/solution_for_3x3/solution_for_3x3.yy",},},
+    {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
     {"id":{"name":"level_select","path":"sprites/level_select/level_select.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"spr_button_check","path":"sprites/spr_button_check/spr_button_check.yy",},},
