@@ -71,6 +71,7 @@
     {"id":{"name":"obj_piece3_circle","path":"objects/obj_piece3_circle/obj_piece3_circle.yy",},},
     {"id":{"name":"obj_piece3_square","path":"objects/obj_piece3_square/obj_piece3_square.yy",},},
     {"id":{"name":"obj_piece3_triangle","path":"objects/obj_piece3_triangle/obj_piece3_triangle.yy",},},
+    {"id":{"name":"obj_pieces_parent","path":"objects/obj_pieces_parent/obj_pieces_parent.yy",},},
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"id":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
     {"id":{"name":"rm_level_selection","path":"rooms/rm_level_selection/rm_level_selection.yy",},},

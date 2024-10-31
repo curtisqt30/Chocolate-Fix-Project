@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_reset",
+  "%Name":"obj_pieces_parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_reset",
+  "name":"obj_pieces_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/UI/buttons.yy",
+    "name":"pieces",
+    "path":"folders/Objects/UI/pieces.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_reset",
-    "path":"sprites/spr_button_reset/spr_button_reset.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
