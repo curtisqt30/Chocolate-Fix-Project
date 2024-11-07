@@ -46,6 +46,7 @@
   "name":"Chocolate Fix",
   "resources":[
     {"id":{"name":"fnt_timer","path":"fonts/fnt_timer/fnt_timer.yy",},},
+    {"id":{"name":"obj_blur_bg","path":"objects/obj_blur_bg/obj_blur_bg.yy",},},
     {"id":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},},
     {"id":{"name":"obj_button_menu","path":"objects/obj_button_menu/obj_button_menu.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
@@ -87,6 +88,7 @@
     {"id":{"name":"solution_for_3x3","path":"scripts/solution_for_3x3/solution_for_3x3.yy",},},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
     {"id":{"name":"level_select","path":"sprites/level_select/level_select.yy",},},
+    {"id":{"name":"spr_background_blurred","path":"sprites/spr_background_blurred/spr_background_blurred.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"spr_button_check","path":"sprites/spr_button_check/spr_button_check.yy",},},
     {"id":{"name":"spr_button_menu","path":"sprites/spr_button_menu/spr_button_menu.yy",},},
