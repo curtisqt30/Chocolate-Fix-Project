@@ -1,3 +1,3 @@
 /// @description Insert description here
-// Unpause the game by setting the global variable to false
+// Unpause the game
 global.game_is_paused = false;
