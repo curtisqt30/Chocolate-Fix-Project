@@ -1,4 +1,4 @@
-/// @description Increment the timer
+ /// @description Increment the timer
 
 // Increment timer each frame
 

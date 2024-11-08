@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_locked",
+  "%Name":"obj_button_settings",
   "eventList":[],
   "managed":true,
-  "name":"obj_locked",
+  "name":"obj_button_settings",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_level_locked",
-    "path":"sprites/spr_level_locked/spr_level_locked.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

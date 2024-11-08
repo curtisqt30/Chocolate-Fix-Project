@@ -6,8 +6,8 @@
   "name":"obj_piece_backdrop",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Windows",
+    "path":"folders/Objects/UI/Windows.yy",
   },
   "parentObjectId":null,
   "persistent":false,

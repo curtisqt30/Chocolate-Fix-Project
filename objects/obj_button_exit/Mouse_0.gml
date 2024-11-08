@@ -1,2 +1,2 @@
-//Exit the gamre altogther
+ //Exit the gamre altogther
 game_end();

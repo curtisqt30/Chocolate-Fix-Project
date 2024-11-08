@@ -12,4 +12,4 @@ var formatted_seconds = (seconds < 10 ? "0" + string(seconds) : string(seconds))
 var formatted_time = formatted_minutes + ":" + formatted_seconds;
 
 // Draw
-draw_text(32, 64, "Time left: " + formatted_time);
+draw_text(670, 950, "Time left: " + formatted_time);

@@ -10,8 +10,8 @@
   "name":"obj_timer_down",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"timers",
+    "path":"folders/Objects/UI/timers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

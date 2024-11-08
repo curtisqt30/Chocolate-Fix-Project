@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_locked",
-  "eventList":[],
+  "%Name":"obj_button_pause",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_locked",
+  "name":"obj_button_pause",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_level_locked",
-    "path":"sprites/spr_level_locked/spr_level_locked.yy",
+    "name":"spr_button_settings",
+    "path":"sprites/spr_button_settings/spr_button_settings.yy",
   },
   "spriteMaskId":null,
   "visible":true,
