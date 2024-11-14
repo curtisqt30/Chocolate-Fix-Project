@@ -42,7 +42,10 @@ function solution_3x3_1(){
 			instance_destroy(obj_button_menu);
 		}
 
-		instance_create_layer(600, 50, "GUI", obj_level_solved);
-		instance_create_layer(0, 0, "GUI", obj_blur_bg)
-   }
+		//instance_create_layer(600, 50, "GUI", obj_level_solved);
+		//instance_create_layer(0, 0, "GUI", obj_blur_bg)
+		if(!instance_exists(obj_level_solved)) {
+			layer_sequence_create("GUI", 600, 50, Sequence1);
+		}
+	}
 }
