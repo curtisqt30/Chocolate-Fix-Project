@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controller",
+  "%Name":"obj_controller_level_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_controller",
+  "name":"obj_controller_level_1",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",

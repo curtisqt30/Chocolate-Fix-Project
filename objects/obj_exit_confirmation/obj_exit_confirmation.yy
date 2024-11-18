@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_piece_backdrop",
-  "eventList":[],
+  "%Name":"obj_exit_confirmation",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_piece_backdrop",
+  "name":"obj_exit_confirmation",
   "overriddenProperties":[],
   "parent":{
     "name":"Windows",
@@ -27,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_window_2_blank",
-    "path":"sprites/spr_window_2_blank/spr_window_2_blank.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
