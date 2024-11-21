@@ -77,7 +77,10 @@ function draw_hint_shape(shape_type, x_offset, y_offset, piece_size) {
             }
         break;
 		
-		case 6: // Upper rectangle
+		case 6: // Horizontal rectangle
+			//  [x][x][x]
+			//  [x][x][x]
+			//  [ ][ ][ ]
             // Draw a rectangle in the upper portion
             for (var i = 0; i < 6; i++) { // 6 pieces for a 2x3 rectangle
                 var x_pos = x_offset + (i mod 3) * piece_size; // Calculate x position
@@ -86,11 +89,14 @@ function draw_hint_shape(shape_type, x_offset, y_offset, piece_size) {
             }
         break;
 		
-		case 7: // Lower rectangle
-            // Draw a rectangle in the lower portion
+		case 7: // Vertical rectangle
+			//  [x][x][ ]
+			//  [x][x][ ]
+			//  [x][x][ ]
+            // Draw a rectangle
             for (var i = 0; i < 6; i++) { // 6 pieces for a 2x3 rectangle
-                var x_pos = x_offset + (i mod 3) * piece_size; // Calculate x position
-                var y_pos = y_offset + piece_size + floor(i / 3) * piece_size; // Position it one row lower
+                var x_pos = x_offset + floor(i / 3) * piece_size; // Calculate x position
+                var y_pos = y_offset + (i mod 3) * piece_size; // Position it one row lower
                 draw_sprite(global.hint_tile, i, x_pos, y_pos);
             }
         break;
@@ -148,6 +154,18 @@ function draw_hint_shape(shape_type, x_offset, y_offset, piece_size) {
 				var y_pos = y_offset + (i * piece_size); // Top and bottom
 				draw_sprite(global.hint_tile, i, x_pos, y_pos);
 			}
+		break;
+		
+		case 14: // Cube
+			//  [x][x][ ]
+			//  [x][x][ ]
+			//  [ ][ ][ ]
+            for (var i = 0; i < 4; i++) { // 6 pieces for a 2x3 rectangle
+                var x_pos = x_offset + (i mod 2) * piece_size; // Calculate x position
+                var y_pos = y_offset + piece_size + floor(i / 2) * piece_size; // Position it one row lower
+                draw_sprite(global.hint_tile, i, x_pos, y_pos);
+            }
+		
 		break;
 	}
 }
