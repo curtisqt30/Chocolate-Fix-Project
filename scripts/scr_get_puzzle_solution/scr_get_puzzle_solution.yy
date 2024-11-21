@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"scr_get_puzzle_solution",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"scr_get_puzzle_solution",
   "parent":{
     "name":"Solution checking",
     "path":"folders/Scripts/Solution checking.yy",
