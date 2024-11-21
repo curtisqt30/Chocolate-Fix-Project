@@ -1,3 +1,8 @@
+if (global.game_is_paused) {
+    // Do nothing, ignore input while paused
+    exit;
+}
+
 var check = solution_3x3_1();
 if (!check) {
 	if (!instance_exists(obj_try_again)) {

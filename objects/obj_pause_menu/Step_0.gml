@@ -17,8 +17,8 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x >= (x - button_width / 2) && mouse_x <= (x + button_width / 2) &&
         mouse_y >= (y - button_height / 2 + move_up) && mouse_y <= (y + button_height / 2 + move_up)) {
         // Resume the game and unpause
-        instance_destroy();  
         global.game_is_paused = false;
+		instance_destroy();  
     }
 
     // Button Restart
@@ -45,6 +45,4 @@ if (mouse_check_button_pressed(mb_left)) {
 if (keyboard_check_pressed(vk_escape)) {
     instance_destroy();  
     global.game_is_paused = false;
-} else {
-    global.game_is_paused = true;
-}
+} 
