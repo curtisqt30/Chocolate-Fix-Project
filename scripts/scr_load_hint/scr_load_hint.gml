@@ -164,7 +164,7 @@ function load_hint(level){
 			[undefined, 199, 150], // pos 2
 			[spr_hint_yellow_square, 268, 150], // pos 3
 			[undefined, 130, 219], // pos 4 
-			[undefined, 199, 219], // pos 5 - Triangle shape
+			[spr_hint_grey_triangle, 199, 219], // pos 5 - Triangle shape
 			[undefined, 268, 219], // pos 6 
 			[undefined, 130, 288], // pos 7 - Pink Color
 			[undefined, 199, 288], // pos 8 - Yellow Color
@@ -180,7 +180,7 @@ function load_hint(level){
 			[spr_hint_pink_square, 199, 519], // pos 5
 			[undefined, 268, 519], // pos 6
 			[spr_hint_pink_triangle, 130, 588], // pos 7
-			[undefined, 199, 588], // pos 8 - Yellow Color
+			[spr_hint_tile_yellow, 199, 588], // pos 8 - Yellow Color
 			[spr_hint_orange_square, 268, 588], // pos 9
 		]
 
