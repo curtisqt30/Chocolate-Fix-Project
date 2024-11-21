@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"level_select",
-    "path":"sprites/level_select/level_select.yy",
+    "name":"spr_level_select",
+    "path":"sprites/spr_level_select/spr_level_select.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -7,4 +7,4 @@ hint_generator(level);
 
 // Create non-visible objects
 instance_create_layer(0, 0, "Controllers", obj_grid);            // Create obj_grid
-instance_create_layer(0, 0, "Controllers", obj_timer_down);      // Create obj_timer_down
+instance_create_layer(0, 0, "Controllers", obj_timer_up);      // Create obj_timer
