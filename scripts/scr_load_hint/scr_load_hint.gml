@@ -3,7 +3,7 @@
 	// -1 = No shape
 	// 0 = Full 9x9
 	// 1 = Short T upper
-	// 2 = Short T bot tom
+	// 2 = Short T upside down
 	// 3 = Verticle Line left
 	// 4 = Verticle Line middle
 	// 5 = Verticle Line right
@@ -152,7 +152,7 @@ function load_hint(level){
 			[undefined, 199, 888], // pos 8
 			[undefined, 268, 888], // pos 9
 		]
-	} else if (level == 3) { // WIP Missing color/shape hints
+	} else if (level == 3) {
 		// Set Shapes
 		global.hint_shape_1 = 0;  // Full 9x9
 		global.hint_shape_2 = 2;  // Short T bottom
