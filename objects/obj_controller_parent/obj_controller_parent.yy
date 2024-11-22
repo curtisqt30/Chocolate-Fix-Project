@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_settings",
-  "eventList":[],
+  "%Name":"obj_controller_parent",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":122,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_button_settings",
+  "name":"obj_controller_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/UI/buttons.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_settings",
-    "path":"sprites/spr_button_settings/spr_button_settings.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

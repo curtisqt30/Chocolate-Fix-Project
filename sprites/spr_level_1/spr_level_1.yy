@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"UI",
-    "path":"folders/Sprites/Test sprites/UI.yy",
+    "name":"Button sprites",
+    "path":"folders/Sprites/Test sprites/UI/Button sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

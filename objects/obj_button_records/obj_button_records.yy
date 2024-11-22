@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_settings",
+  "%Name":"obj_button_records",
   "eventList":[],
   "managed":true,
-  "name":"obj_button_settings",
+  "name":"obj_button_records",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_settings",
-    "path":"sprites/spr_button_settings/spr_button_settings.yy",
+    "name":"spr_button_records",
+    "path":"sprites/spr_button_records/spr_button_records.yy",
   },
   "spriteMaskId":null,
   "visible":true,
