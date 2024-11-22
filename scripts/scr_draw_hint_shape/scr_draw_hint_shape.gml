@@ -35,15 +35,15 @@ function draw_hint_shape(shape_type, x_offset, y_offset, piece_size) {
 			//  [ ][x][ ]
 			//  [x][x][x]
 			//  [ ][ ][ ]
-            // Draw the top row of the T shape, now lower
+            // Draw the row of the T shape
             for (var i = 0; i < 3; i++) {
-                var x_pos = x_offset + (i * piece_size) + piece_size;
-                var y_pos = y_offset; // Lower the whole shape by one row
+                var x_pos = x_offset + (i * piece_size);
+                var y_pos = y_offset + piece_size; // Lower the whole shape by one row
                 draw_sprite(global.hint_tile, i, x_pos, y_pos);
             }
             // Draw the stem of the T one row lower
             var stem_x_pos = x_offset + piece_size; // Center the stem piece
-            var stem_y_pos = y_offset + (piece_size * 2); // Position the stem two rows down
+            var stem_y_pos = y_offset; // Position the stem two rows down
             draw_sprite(global.hint_tile, 3, stem_x_pos, stem_y_pos);
         break;
 		

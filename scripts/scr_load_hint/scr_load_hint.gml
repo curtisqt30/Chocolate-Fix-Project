@@ -160,52 +160,6 @@ function load_hint(level){
 	
 	case 2:
 		// Set Shapes
-		global.hint_shape_1 = 0;
-		global.hint_shape_2 = 0;
-		global.hint_shape_3 = 0;
-		
-		// Set hint 1 pieces
-		global.hint1 = [
-			[undefined, 130, 150], // pos 1
-			[undefined, 199, 150], // pos 2
-			[undefined, 268, 150], // pos 3
-			[undefined, 130, 219], // pos 4 
-			[undefined, 199, 219], // pos 5
-			[undefined, 268, 219], // pos 6
-			[undefined, 130, 288], // pos 7
-			[undefined, 199, 288], // pos 8
-			[undefined, 268, 288], // pos 9
-		]
-
-		// Set hint 2 pieces
-		global.hint2 = [
-			[undefined, 130, 450], // pos 1
-			[undefined, 199, 450], // pos 2
-			[undefined, 268, 450], // pos 3
-			[undefined, 130, 519], // pos 4
-			[undefined, 199, 519], // pos 5
-			[undefined, 268, 519], // pos 6
-			[undefined, 130, 588], // pos 7
-			[undefined, 199, 588], // pos 8
-			[undefined, 268, 588], // pos 9
-		]
-
-		// Set hint 3 pieces
-		global.hint3 = [
-			[undefined, 130, 750], // pos 1
-			[undefined, 199, 750], // pos 2
-			[undefined, 268, 750], // pos 3
-			[undefined, 130, 819], // pos 4
-			[undefined, 199, 819], // pos 5
-			[undefined, 268, 819], // pos 6
-			[undefined, 130, 888], // pos 7
-			[undefined, 199, 888], // pos 8
-			[undefined, 268, 888], // pos 9
-		]
-	break;
-	
-	case 3:
-		// Set Shapes
 		global.hint_shape_1 = 0;  // Full 9x9
 		global.hint_shape_2 = 2;  // Short T bottom
 		global.hint_shape_3 = -1; // no hint
@@ -226,14 +180,14 @@ function load_hint(level){
 		// Set hint 2 pieces
 		global.hint2 = [
 			[undefined, 130, 450], // pos 1
-			[undefined, 199, 450], // pos 2
+			[spr_hint_pink_square, 199, 450], // pos 2
 			[undefined, 268, 450], // pos 3
-			[undefined, 130, 519], // pos 4
-			[spr_hint_pink_square, 199, 519], // pos 5
-			[undefined, 268, 519], // pos 6
-			[spr_hint_pink_triangle, 130, 588], // pos 7
-			[spr_hint_tile_yellow, 199, 588], // pos 8 - Yellow Color
-			[spr_hint_orange_square, 268, 588], // pos 9
+			[spr_hint_pink_triangle, 130, 588], // pos 4
+			[spr_hint_tile_yellow, 199, 588], // pos 5
+			[spr_hint_orange_square, 268, 588], // pos 6
+			[undefined, 130, 519], // pos 7
+			[undefined, 199, 519], // pos 8
+			[undefined, 268, 519], // pos 9
 		]
 
 		// Set hint 3 pieces - No 3rd hint
@@ -248,10 +202,10 @@ function load_hint(level){
 			[undefined, 199, 888], // pos 8
 			[undefined, 268, 888], // pos 9
 		]
-		break;
-		
-		case 4:
-			// Set Shapes
+	break;
+	
+	case 3:
+		// Set Shapes
 		global.hint_shape_1 = 14;  // Cube
 		global.hint_shape_2 = 14;  // Cube
 		global.hint_shape_3 = 8; // Horizontal Line
@@ -296,7 +250,7 @@ function load_hint(level){
 		]
 		break;
 		
-		case 5:
+		case 4:
 			// Set Shapes
 		global.hint_shape_1 = 0;  // 3x3
 		global.hint_shape_2 = 6;  // Horixontal Rectangle
