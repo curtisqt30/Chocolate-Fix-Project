@@ -172,9 +172,9 @@ function load_hint(level){
 			[undefined, 130, 219], // pos 4 
 			[spr_hint_grey_triangle, 199, 219], // pos 5 - Triangle shape
 			[undefined, 268, 219], // pos 6 
-			[undefined, 130, 288], // pos 7 - Pink Color
-			[undefined, 199, 288], // pos 8 - Yellow Color
-			[undefined, 268, 288], // pos 9 - Orange Color
+			[spr_hint_tile_pink, 130, 288], // pos 7 - Pink Color
+			[spr_hint_tile_yellow, 199, 288], // pos 8 - Yellow Color
+			[spr_hint_tile_orange, 268, 288], // pos 9 - Orange Color
 		]
 
 		// Set hint 2 pieces
@@ -182,12 +182,12 @@ function load_hint(level){
 			[undefined, 130, 450], // pos 1
 			[spr_hint_pink_square, 199, 450], // pos 2
 			[undefined, 268, 450], // pos 3
-			[spr_hint_pink_triangle, 130, 588], // pos 4
-			[spr_hint_tile_yellow, 199, 588], // pos 5
-			[spr_hint_orange_square, 268, 588], // pos 6
-			[undefined, 130, 519], // pos 7
-			[undefined, 199, 519], // pos 8
-			[undefined, 268, 519], // pos 9
+			[spr_hint_pink_triangle, 130, 519], // pos 4
+			[spr_hint_tile_yellow, 199, 519], // pos 5
+			[spr_hint_orange_square, 268, 519], // pos 6
+			[undefined, 130, 588], // pos 7
+			[undefined, 199, 588], // pos 8
+			[undefined, 268, 588], // pos 9
 		]
 
 		// Set hint 3 pieces - No 3rd hint
