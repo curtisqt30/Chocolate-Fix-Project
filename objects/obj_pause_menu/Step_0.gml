@@ -11,6 +11,11 @@ var button_height = 95;
 var move_up = -30;
 var offset_y = 110;
 
+//button music size
+var square_button_size = 100;
+var music_button_x = x - (square_button_size / 2) - 70;
+var music_button_y = y - (square_button_size / 2) - offset_y - 40;
+
 // Check if the mouse is clicked
 if (mouse_check_button_pressed(mb_left)) {
     // Button Resume
@@ -39,6 +44,17 @@ if (mouse_check_button_pressed(mb_left)) {
         // Destroy the pause menu so it doesn't overlap with the exit confirmation
         instance_destroy();  
     }
+	
+	// Button Music 
+	if (mouse_x >= music_button_x && mouse_x <= music_button_x + square_button_size &&
+		mouse_y >= music_button_y && mouse_y <= music_button_y + square_button_size) {
+		// Toggle music on/off
+		if (audio_is_playing(snd_music)) {
+			audio_stop_sound(snd_music);
+		} else {
+			audio_play_sound(snd_music, 1, true);
+		}
+	}
 }
 
 // Check ESC click
