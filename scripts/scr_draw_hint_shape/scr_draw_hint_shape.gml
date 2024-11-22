@@ -162,7 +162,7 @@ function draw_hint_shape(shape_type, x_offset, y_offset, piece_size) {
 			//  [ ][ ][ ]
             for (var i = 0; i < 4; i++) { // 6 pieces for a 2x3 rectangle
                 var x_pos = x_offset + (i mod 2) * piece_size; // Calculate x position
-                var y_pos = y_offset + piece_size + floor(i / 2) * piece_size; // Position it one row lower
+                var y_pos = y_offset + floor(i / 2) * piece_size; // Position it one row lower
                 draw_sprite(global.hint_tile, i, x_pos, y_pos);
             }
 		
