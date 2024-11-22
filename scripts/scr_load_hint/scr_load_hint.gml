@@ -170,11 +170,11 @@ function load_hint(level){
 			[undefined, 199, 150], // pos 2
 			[spr_hint_yellow_square, 268, 150], // pos 3
 			[undefined, 130, 219], // pos 4 
-			[spr_hint_grey_triangle, 199, 219], // pos 5 - Triangle shape
+			[spr_hint_triangle, 199, 219], // pos 5 - Triangle shape
 			[undefined, 268, 219], // pos 6 
-			[spr_hint_tile_pink, 130, 288], // pos 7 - Pink Color
-			[spr_hint_tile_yellow, 199, 288], // pos 8 - Yellow Color
-			[spr_hint_tile_orange, 268, 288], // pos 9 - Orange Color
+			[spr_hint_pink, 130, 288], // pos 7 - Pink Color
+			[spr_hint_yellow, 199, 288], // pos 8 - Yellow Color
+			[spr_hint_orange, 268, 288], // pos 9 - Orange Color
 		]
 
 		// Set hint 2 pieces
@@ -183,7 +183,7 @@ function load_hint(level){
 			[spr_hint_pink_square, 199, 450], // pos 2
 			[undefined, 268, 450], // pos 3
 			[spr_hint_pink_triangle, 130, 519], // pos 4
-			[spr_hint_tile_yellow, 199, 519], // pos 5
+			[spr_hint_yellow, 199, 519], // pos 5
 			[spr_hint_orange_square, 268, 519], // pos 6
 			[undefined, 130, 588], // pos 7
 			[undefined, 199, 588], // pos 8
@@ -238,9 +238,9 @@ function load_hint(level){
 
 		// Set hint 3 pieces
 		global.hint3 = [
-			[spr_hint_tile_pink, 130, 750], // pos 1
-			[spr_hint_tile_yellow, 199, 750], // pos 2
-			[spr_hint_tile_pink, 268, 750], // pos 3
+			[spr_hint_pink, 130, 750], // pos 1
+			[spr_hint_yellow, 199, 750], // pos 2
+			[spr_hint_pink, 268, 750], // pos 3
 			[undefined, 130, 819], // pos 4
 			[undefined, 199, 819], // pos 5
 			[undefined, 268, 819], // pos 6
@@ -259,13 +259,13 @@ function load_hint(level){
 		// Set hint 1 pieces
 		global.hint1 = [
 			[undefined, 130, 150], // pos 1
-			[spr_hint_tile_orange, 199, 150], // pos 2
-			[spr_hint_grey_square, 268, 150], // pos 3
-			[spr_hint_grey_triangle, 130, 219], // pos 4 
+			[spr_hint_orange, 199, 150], // pos 2
+			[spr_hint_square, 268, 150], // pos 3
+			[spr_hint_triangle, 130, 219], // pos 4 
 			[undefined, 199, 219], // pos 5
 			[undefined, 268, 219], // pos 6 
-			[spr_hint_grey_triangle, 130, 288], // pos 7
-			[spr_hint_grey_triangle, 199, 288], // pos 8
+			[spr_hint_triangle, 130, 288], // pos 7
+			[spr_hint_triangle, 199, 288], // pos 8
 			[undefined, 268, 288], // pos 9
 		]
 
@@ -273,10 +273,10 @@ function load_hint(level){
 		global.hint2 = [
 			[undefined, 130, 150], // pos 1
 			[undefined, 199, 150], // pos 2
-			[spr_hint_tile_pink, 268, 150], // pos 3
-			[spr_hint_tile_yellow, 130, 219], // pos 4 
-			[spr_hint_grey_square, 199, 219], // pos 5
-			[spr_hint_tile_pink, 268, 219], // pos 6 
+			[spr_hint_pink, 268, 150], // pos 3
+			[spr_hint_yellow, 130, 219], // pos 4 
+			[spr_hint_square, 199, 219], // pos 5
+			[spr_hint_pink, 268, 219], // pos 6 
 			[undefined, 130, 288], // pos 7
 			[undefined, 199, 288], // pos 8
 			[undefined, 268, 288], // pos 9
@@ -284,14 +284,14 @@ function load_hint(level){
 
 		// Set hint 3 pieces
 		global.hint3 = [
-			[spr_hint_tile_orange, 130, 750], // pos 1
-			[spr_hint_grey_square, 199, 750], // pos 2
+			[spr_hint_orange, 130, 750], // pos 1
+			[spr_hint_square, 199, 750], // pos 2
 			[undefined, 268, 750], // pos 3
 			[undefined, 130, 819], // pos 4
 			[undefined, 199, 819], // pos 5
 			[undefined, 268, 819], // pos 6
 			[undefined, 130, 888], // pos 7
-			[spr_hint_tile_pink, 199, 888], // pos 8
+			[spr_hint_pink, 199, 888], // pos 8
 			[undefined, 268, 888], // pos 9
 		]
 		break;
