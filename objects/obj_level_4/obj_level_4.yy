@@ -3,7 +3,6 @@
   "%Name":"obj_level_4",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_level_4",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_level_2",
-    "path":"sprites/spr_level_2/spr_level_2.yy",
+    "name":"spr_level_4",
+    "path":"sprites/spr_level_4/spr_level_4.yy",
   },
   "spriteMaskId":null,
   "visible":true,
