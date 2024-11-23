@@ -13,6 +13,11 @@ function check_solution(level){
         }
     }
 	
+	// Unlocked the next level, 
+	if (level != 5) { // Makes sure it doesn't go out of bounds.
+		global.unlocked_levels[level] = true; 
+	}
+	
     // If global.solved is still true, the puzzle is global.solved
     if (global.solved) {
         show_debug_message("Puzzle is solved!");

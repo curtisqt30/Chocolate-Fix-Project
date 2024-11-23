@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_controller",
+  "%Name":"obj_initialize_game",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_level_controller",
+  "name":"obj_initialize_game",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -15,7 +15,7 @@
     "name":"obj_controller_parent",
     "path":"objects/obj_controller_parent/obj_controller_parent.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
