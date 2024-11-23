@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_1",
+  "%Name":"obj_level_3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_level_1",
+  "name":"obj_level_3",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_level_1",
-    "path":"sprites/spr_level_1/spr_level_1.yy",
+    "name":"spr_level_2",
+    "path":"sprites/spr_level_2/spr_level_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
