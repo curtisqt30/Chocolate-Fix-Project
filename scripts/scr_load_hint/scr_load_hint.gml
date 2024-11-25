@@ -226,9 +226,9 @@ function load_hint(level){
 		// Set hint 2 pieces
 		global.hint2 = [
 			[spr_hint_orange_square, 130, 450], // pos 1
-			[spr_hint_orange_circle, 199, 450], // pos 2
+			[spr_hint_orange_triangle, 199, 450], // pos 2
 			[undefined, 268, 450], // pos 3
-			[spr_hint_orange_triangle, 130, 519], // pos 4 
+			[spr_hint_orange_circle, 130, 519], // pos 4 
 			[spr_hint_yellow_square, 199, 519], // pos 5
 			[undefined, 268, 519], // pos 6 
 			[undefined, 130, 588], // pos 7
