@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"extra unused assets",
-    "path":"folders/Sprites/Test sprites/UI/extra unused assets.yy",
+    "path":"folders/Sprites/extra unused assets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

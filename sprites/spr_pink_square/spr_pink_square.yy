@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Pieces",
-    "path":"folders/Sprites/Test sprites/Pieces.yy",
+    "path":"folders/Sprites/Pieces.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

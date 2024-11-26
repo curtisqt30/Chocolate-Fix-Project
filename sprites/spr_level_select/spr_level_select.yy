@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"UI",
-    "path":"folders/Sprites/Test sprites/UI.yy",
+    "path":"folders/Sprites/UI.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

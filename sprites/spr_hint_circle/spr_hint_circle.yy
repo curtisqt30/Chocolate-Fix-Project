@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Hint pieces",
-    "path":"folders/Sprites/Test sprites/Pieces/Hint pieces.yy",
+    "path":"folders/Sprites/Pieces/Hint pieces.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
