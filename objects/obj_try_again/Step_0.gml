@@ -35,14 +35,16 @@ if (mouse_check_button_pressed(mb_left)) {
     // Button "Yes"
     if (mouse_x >= (button_yes_x - button_width / 2) && mouse_x <= (button_yes_x + button_width / 2) &&
         mouse_y >= (button_y - button_height / 2) && mouse_y <= (button_y + button_height / 2)) {
-        instance_destroy();
+        audio_play_sound(snd_button_click, 1, false);
+		instance_destroy();
 		
     }
 
     // Button "Reset"
     if (mouse_x >= (button_no_x - button_width / 2) && mouse_x <= (button_no_x + button_width / 2) &&
         mouse_y >= (button_y - button_height / 2) && mouse_y <= (button_y + button_height / 2)) {
-        with(obj_pieces_parent) {
+        audio_play_sound(snd_button_click, 1, false);
+		with(obj_pieces_parent) {
 			x = origin_x;
 			y = origin_y;
 		}

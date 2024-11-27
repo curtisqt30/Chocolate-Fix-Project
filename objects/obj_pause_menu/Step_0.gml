@@ -22,6 +22,7 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x >= (x - button_width / 2) && mouse_x <= (x + button_width / 2) &&
         mouse_y >= (y - button_height / 2 + move_up) && mouse_y <= (y + button_height / 2 + move_up)) {
         // Resume the game and unpause
+		audio_play_sound(snd_button_click, 1, false);
         global.game_is_paused = false;
 		instance_destroy();  
     }
@@ -31,6 +32,7 @@ if (mouse_check_button_pressed(mb_left)) {
         mouse_y >= (y - button_height / 2 + offset_y + move_up) && mouse_y <= (y + button_height / 2 + offset_y + move_up)) {
         // Restart the level
         show_debug_message("Restarting the level...");
+		audio_play_sound(snd_button_click, 1, false);
         global.game_is_paused = false;
         instance_destroy();  
         room_restart();  
@@ -40,6 +42,7 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x >= (x - button_width / 2) && mouse_x <= (x + button_width / 2) &&
         mouse_y >= (y - button_height / 2 + offset_y * 2 + move_up) && mouse_y <= (y + button_height / 2 + offset_y * 2 + move_up)) {     
         // Create the exit confirmation window
+		audio_play_sound(snd_button_click, 1, false);
         instance_create_layer(x, y, "GUI", obj_exit_confirmation);
         // Destroy the pause menu so it doesn't overlap with the exit confirmation
         instance_destroy();  
@@ -49,6 +52,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (mouse_x >= music_button_x && mouse_x <= music_button_x + square_button_size &&
 		mouse_y >= music_button_y && mouse_y <= music_button_y + square_button_size) {
 		// Toggle music on/off
+		audio_play_sound(snd_button_click, 1, false);
 		if (audio_is_playing(snd_music)) {
 			audio_stop_sound(snd_music);
 		} else {

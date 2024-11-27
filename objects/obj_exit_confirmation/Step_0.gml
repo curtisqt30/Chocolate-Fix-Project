@@ -35,15 +35,16 @@ if (mouse_check_button_pressed(mb_left)) {
     // Button "Yes"
     if (mouse_x >= (button_yes_x - button_width / 2) && mouse_x <= (button_yes_x + button_width / 2) &&
         mouse_y >= (button_y - button_height / 2) && mouse_y <= (button_y + button_height / 2)) {
-        global.game_is_paused = false;
+        audio_play_sound(snd_button_click, 1, false);
+		global.game_is_paused = false;
 		room_goto(rm_level_selection);
-		
     }
 
     // Button "No"
     if (mouse_x >= (button_no_x - button_width / 2) && mouse_x <= (button_no_x + button_width / 2) &&
         mouse_y >= (button_y - button_height / 2) && mouse_y <= (button_y + button_height / 2)) {
-        instance_destroy();
+        audio_play_sound(snd_button_click, 1, false);
+		instance_destroy();
 		instance_create_layer(menu_x, menu_y, "GUI", obj_pause_menu);
     }
 }
