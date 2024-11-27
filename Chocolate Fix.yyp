@@ -65,7 +65,6 @@
     {"id":{"name":"obj_button_reset","path":"objects/obj_button_reset/obj_button_reset.yy",},},
     {"id":{"name":"obj_button_settings","path":"objects/obj_button_settings/obj_button_settings.yy",},},
     {"id":{"name":"obj_button_submit","path":"objects/obj_button_submit/obj_button_submit.yy",},},
-    {"id":{"name":"obj_controller_parent","path":"objects/obj_controller_parent/obj_controller_parent.yy",},},
     {"id":{"name":"obj_exit_confirmation","path":"objects/obj_exit_confirmation/obj_exit_confirmation.yy",},},
     {"id":{"name":"obj_grid_tile_1","path":"objects/obj_grid_tile_1/obj_grid_tile_1.yy",},},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},},

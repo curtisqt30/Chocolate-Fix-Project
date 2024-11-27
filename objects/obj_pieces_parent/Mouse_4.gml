@@ -1,4 +1,4 @@
-if (global.game_is_paused) {
+if (global.game_is_paused || instance_exists(obj_try_again)) {
     // Do nothing, ignore input while paused
     exit;
 }
