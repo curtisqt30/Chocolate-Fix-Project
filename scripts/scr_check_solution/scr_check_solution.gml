@@ -13,13 +13,12 @@ function check_solution(level){
         }
     }
 	
-	// Unlocked the next level, 
-	if (level != 5) { // Makes sure it doesn't go out of bounds.
-		global.unlocked_levels[level] = true; 
-	}
-	
     // If global.solved is still true, the puzzle is global.solved
     if (global.solved) {
+		// Unlocked the next level, 
+		if (level != 5) { // Makes sure it doesn't go out of bounds.
+			global.unlocked_levels[level] = true; 
+		}
         show_debug_message("Puzzle is solved!");
 		if(instance_exists(obj_button_submit)) {
 			instance_destroy(obj_button_submit);

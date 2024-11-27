@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Button sprites",
-    "path":"folders/Sprites/Button sprites.yy",
+    "name":"extra unused assets",
+    "path":"folders/Sprites/extra unused assets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
