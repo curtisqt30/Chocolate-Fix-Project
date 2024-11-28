@@ -12,8 +12,8 @@
   "duration":20.210611,
   "name":"Light_Music",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

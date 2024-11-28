@@ -6,3 +6,5 @@ if (global.game_is_paused || instance_exists(obj_try_again)) {
 if (position_meeting(mouse_x, mouse_y, self)) {
 	selected_object = instance_position(mouse_x, mouse_y, self);
 }
+
+audio_play_sound(snd_piece_click1, 10, false);

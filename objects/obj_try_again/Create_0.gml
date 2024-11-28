@@ -6,3 +6,5 @@ menu_scale = 0;
 target_scale = .70;
 scale_speed = 0.20;
 show_debug_message("exit confirmation created in the Create event");
+
+audio_play_sound(snd_sfx_tryagain, 10, false);

@@ -12,8 +12,8 @@
   "duration":164.57143,
   "name":"Evening_Mood",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

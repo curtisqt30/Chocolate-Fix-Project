@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Spinning_out",
+  "%Name":"snd_piece_click2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":42.666668,
-  "name":"Spinning_out",
+  "duration":0.131427,
+  "name":"snd_piece_click2",
   "parent":{
-    "name":"music",
-    "path":"folders/Sounds/music.yy",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Spinning_out.wav",
+  "soundFile":"snd_piece_click2.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.35,
 }

@@ -12,8 +12,8 @@
   "duration":21.333332,
   "name":"Sweet_Treats",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

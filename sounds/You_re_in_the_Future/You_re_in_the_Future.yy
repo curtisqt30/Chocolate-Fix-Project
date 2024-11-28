@@ -12,8 +12,8 @@
   "duration":34.666668,
   "name":"You_re_in_the_Future",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

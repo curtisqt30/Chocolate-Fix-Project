@@ -10,3 +10,5 @@
 //	draw_sprite(spr_background_blurred, 0, 0, 0);
 //	draw_self();
 //}
+
+audio_play_sound(snd_sfx_solved, 10, false);
