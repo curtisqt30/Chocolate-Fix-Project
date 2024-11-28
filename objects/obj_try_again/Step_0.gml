@@ -36,6 +36,7 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x >= (button_yes_x - button_width / 2) && mouse_x <= (button_yes_x + button_width / 2) &&
         mouse_y >= (button_y - button_height / 2) && mouse_y <= (button_y + button_height / 2)) {
         audio_play_sound(snd_button_click, 1, false);
+		global.game_is_paused = false;
 		instance_destroy();
 		
     }
@@ -48,6 +49,7 @@ if (mouse_check_button_pressed(mb_left)) {
 			x = origin_x;
 			y = origin_y;
 		}
+		global.game_is_paused = false;
 		instance_destroy();
     }
 }

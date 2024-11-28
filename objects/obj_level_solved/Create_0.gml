@@ -11,4 +11,5 @@
 //	draw_self();
 //}
 
+global.game_is_paused = true;
 audio_play_sound(snd_sfx_solved, 10, false);
