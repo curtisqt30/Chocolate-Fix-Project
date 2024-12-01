@@ -3,3 +3,5 @@
 
 // Level 1 is open at the start
 global.unlocked_levels = [true, false, false, false, false];
+
+global.fastest_times = [-1, -1, -1, -1, -1]

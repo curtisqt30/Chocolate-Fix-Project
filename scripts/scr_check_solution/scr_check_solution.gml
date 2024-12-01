@@ -15,10 +15,15 @@ function check_solution(level){
 	
     // If global.solved is still true, the puzzle is global.solved
     if (global.solved) {
-		// Unlocked the next level, 
-		if (level != 5) { // Makes sure it doesn't go out of bounds.
-			global.unlocked_levels[level] = true; 
-		}
+	    // Unlock the next level and update the current level's fastest time
+	    if (level != 5) {
+	        global.unlocked_levels[level] = true;
+	        if (global.fastest_times[level - 1] == -1 || global.timer < global.fastest_times[level - 1]) {
+	            global.fastest_times[level - 1] = global.timer;
+	        }
+	    }
+
+		
         show_debug_message("Puzzle is solved!");
 		if(instance_exists(obj_button_submit)) {
 			instance_destroy(obj_button_submit);

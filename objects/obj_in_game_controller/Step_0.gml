@@ -1,5 +1,10 @@
 /// @description Insert description here
-// You can write your code in this editor
+// Increment timer each frame
+if (!global.game_is_paused) {
+   
+    global.timer += 1;
+}
+
 if (keyboard_check_pressed(ord("N"))) {
     // Fetch the current level
     var level = get_current_level();
@@ -17,7 +22,4 @@ if (keyboard_check_pressed(ord("N"))) {
 
     // Mark the puzzle as solved
     check_solution(level);
-
-    // Optional: Feedback for testing
-    show_debug_message("Cheat activated! Puzzle solved.");
 }
