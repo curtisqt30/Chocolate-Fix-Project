@@ -1,1 +1,1 @@
-hint_generator(1);
+hint_generator(global.level);

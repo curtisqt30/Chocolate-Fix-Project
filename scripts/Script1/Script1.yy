@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Script1",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Solution checking",
+    "path":"folders/Scripts/Solution checking.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

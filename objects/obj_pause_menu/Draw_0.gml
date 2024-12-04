@@ -5,7 +5,8 @@ draw_set_alpha(1);
 
 // Draw the pause menu 
 if (menu_scale > 0) {
-    draw_sprite_ext(spr_pause, 0, display_get_width() / 2, display_get_height() / 2, menu_scale, menu_scale, 0, c_white, 1);
+    draw_sprite_ext(spr_window_pause, 0, display_get_width() / 2, display_get_height() / 2, menu_scale, menu_scale, 0, c_white, 1);
 }
 
 
+      
