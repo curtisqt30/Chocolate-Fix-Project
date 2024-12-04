@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_window_2_blank",
-    "path":"sprites/spr_window_2_blank/spr_window_2_blank.yy",
+    "name":"spr_panel",
+    "path":"sprites/spr_panel/spr_panel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

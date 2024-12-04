@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_levels",
-    "path":"sprites/spr_button_levels/spr_button_levels.yy",
+    "name":"spr_previous_button",
+    "path":"sprites/spr_previous_button/spr_previous_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"extra unused assets",
-    "path":"folders/Sprites/extra unused assets.yy",
+    "name":"UI",
+    "path":"folders/Sprites/Test sprites/UI.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
