@@ -1,3 +1,6 @@
+// Objected is selected
+global.is_object_selected = false;
+
 // Define grid properties
 global.grid_x = 400;         // X position of the top-left corner of the grid
 global.grid_y = 100;         // Y position of the top-left corner of the grid

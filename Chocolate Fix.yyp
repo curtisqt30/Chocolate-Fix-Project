@@ -105,6 +105,8 @@
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"id":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
     {"id":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
+    {"id":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
+    {"id":{"name":"rm_level_5","path":"rooms/rm_level_5/rm_level_5.yy",},},
     {"id":{"name":"rm_level_selection","path":"rooms/rm_level_selection/rm_level_selection.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_records","path":"rooms/rm_records/rm_records.yy",},},
@@ -251,6 +253,8 @@
     {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
     {"roomId":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
     {"roomId":{"name":"rm_records","path":"rooms/rm_records/rm_records.yy",},},
+    {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
+    {"roomId":{"name":"rm_level_5","path":"rooms/rm_level_5/rm_level_5.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

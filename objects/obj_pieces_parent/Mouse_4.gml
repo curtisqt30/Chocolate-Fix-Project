@@ -3,8 +3,9 @@ if (global.game_is_paused || instance_exists(obj_try_again)) {
     exit;
 }
 
-if (position_meeting(mouse_x, mouse_y, self)) {
+if (position_meeting(mouse_x, mouse_y, self) && !global.is_object_selected) {
 	selected_object = instance_position(mouse_x, mouse_y, self);
+	global.is_object_selected = true;
 }
 
 audio_play_sound(snd_piece_click1, 10, false);
