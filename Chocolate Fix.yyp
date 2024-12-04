@@ -143,6 +143,7 @@
     {"id":{"name":"spr_yellow_triangle_small","path":"sprites/spr_yellow_triangle_small/spr_yellow_triangle_small.yy",},},
     {"id":{"name":"spr_yellow_triangle","path":"sprites/spr_yellow_triangle/spr_yellow_triangle.yy",},},
     {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},},
+    {"id":{"name":"Sprite49","path":"sprites/Sprite49/Sprite49.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
