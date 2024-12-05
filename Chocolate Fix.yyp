@@ -154,6 +154,7 @@
     {"id":{"name":"Background_Yellow","path":"sprites/Background_Yellow/Background_Yellow.yy",},},
     {"id":{"name":"Button__2_","path":"sprites/Button__2_/Button__2_.yy",},},
     {"id":{"name":"Button","path":"sprites/Button/Button.yy",},},
+    {"id":{"name":"Rubik_Bubbles","path":"sprites/Rubik_Bubbles/Rubik_Bubbles.yy",},},
     {"id":{"name":"spr_background_blurred","path":"sprites/spr_background_blurred/spr_background_blurred.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"spr_background_white","path":"sprites/spr_background_white/spr_background_white.yy",},},
