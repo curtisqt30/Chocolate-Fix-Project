@@ -37,6 +37,8 @@ if (mouse_check_button_pressed(mb_left)) {
         mouse_y >= (button_y - button_height / 2) && mouse_y <= (button_y + button_height / 2)) {
         audio_play_sound(snd_button_click, 5, false);
 		global.game_is_paused = false;
+		// Set the cooldown for a second (30 steps) to prevent bug in room transitions
+		global.button_cooldown = global.button_cooldown_duration;
 		room_goto(rm_level_selection);
     }
 

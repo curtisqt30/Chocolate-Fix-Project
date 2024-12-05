@@ -16,7 +16,7 @@ function check_solution(level){
     // If global.solved is still true, the puzzle is global.solved
     if (global.solved) {
 	    // Unlock the next level and update the current level's fastest time
-	    if (level != 5) {
+	    if (level != 8) {
 	        global.unlocked_levels[level] = true;
 	        if (global.fastest_times[level - 1] == -1 || global.timer < global.fastest_times[level - 1]) {
 	            global.fastest_times[level - 1] = global.timer;

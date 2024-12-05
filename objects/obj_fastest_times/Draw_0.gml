@@ -3,7 +3,7 @@ draw_set_font(fnt_timer);
 var x_start = 420; 
 var y_start = 50;
 var x_step = 0; 
-var y_step = 100;  
+var y_step = 75;  
 
 for (var i = 0; i < array_length(global.fastest_times); i++) {
     // Get the fastest
