@@ -403,9 +403,9 @@ function load_hint(level){
 		global.hint2 = [
 			[spr_hint_triangle, 130, 450], // pos 1
 			[undefined, 199, 450], // pos 2
-			[spr_hint_pink, 268, 450], // pos 3
-			[spr_hint_orange_triangle, 130, 519], // pos 4 
-			[undefined, 199, 519], // pos 5
+			[undefined, 268, 450], // pos 3
+			[spr_hint_pink, 130, 519], // pos 4 
+			[spr_hint_orange_triangle, 199, 519], // pos 5
 			[undefined, 268, 519], // pos 6 
 			[undefined, 130, 588], // pos 7
 			[undefined, 199, 588], // pos 8
@@ -415,9 +415,9 @@ function load_hint(level){
 		global.hint3 = [
 			[spr_hint_square, 130, 750], // pos 1
 			[undefined, 199, 750], // pos 2
-			[spr_hint_pink, 268, 750], // pos 3
-			[spr_hint_orange, 130, 819], // pos 4
-			[undefined, 199, 819], // pos 5
+			[undefined, 268, 750], // pos 3
+			[spr_hint_pink, 130, 819], // pos 4
+			[spr_hint_orange, 199, 819], // pos 5
 			[undefined, 268, 819], // pos 6
 			[undefined, 130, 888], // pos 7
 			[undefined, 199, 888], // pos 8
