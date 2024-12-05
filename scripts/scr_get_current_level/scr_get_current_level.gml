@@ -8,5 +8,8 @@ function get_current_level() {
     if (room_name == "rm_level_3") return 3;
 	if (room_name == "rm_level_4") return 4;
 	if (room_name == "rm_level_5") return 5;
+	if (room_name == "rm_level_6") return 6;
+	if (room_name == "rm_level_7") return 7;
+	if (room_name == "rm_level_8") return 8;
     return 0; // Default level for unknown rooms
 }
