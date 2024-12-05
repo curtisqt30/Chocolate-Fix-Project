@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_level_solved",
-    "path":"sprites/spr_level_solved/spr_level_solved.yy",
+    "name":"spr_level_solved_1",
+    "path":"sprites/spr_level_solved_1/spr_level_solved_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

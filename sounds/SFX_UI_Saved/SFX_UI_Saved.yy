@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SFX_UI_Saved",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.880816,
+  "name":"SFX_UI_Saved",
+  "parent":{
+    "name":"sfx",
+    "path":"folders/Sounds/sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SFX_UI_Saved.mp3",
+  "type":0,
+  "volume":1.0,
+}

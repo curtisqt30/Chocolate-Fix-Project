@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"46f1f7e8-be51-406e-828f-36020c3d0650","name":"46f1f7e8-be51-406e-828f-36020c3d0650","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"30b4bd47-e3e3-44d6-9d77-a57515006456","name":"30b4bd47-e3e3-44d6-9d77-a57515006456","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":2304,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"848ed5b6-b133-41d6-a22e-6dd075240b46","blendMode":0,"displayName":"default","isLocked":false,"name":"848ed5b6-b133-41d6-a22e-6dd075240b46","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3c6dc2a8-e020-43e7-af3c-0ba40def39b0","blendMode":0,"displayName":"default","isLocked":false,"name":"3c6dc2a8-e020-43e7-af3c-0ba40def39b0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Rubik_Bubbles",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"UI",
-    "path":"folders/Sprites/Test sprites/UI.yy",
+    "name":"extra unused assets",
+    "path":"folders/Sprites/extra unused assets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46f1f7e8-be51-406e-828f-36020c3d0650","path":"sprites/Rubik_Bubbles/Rubik_Bubbles.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"139cf932-4be9-4b57-9da2-af7cb3b63480","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30b4bd47-e3e3-44d6-9d77-a57515006456","path":"sprites/Rubik_Bubbles/Rubik_Bubbles.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d271a6b9-0943-497d-bc10-c5282e5fa65e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
