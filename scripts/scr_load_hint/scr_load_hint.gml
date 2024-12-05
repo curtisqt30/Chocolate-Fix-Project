@@ -271,12 +271,12 @@ function load_hint(level){
 
 		// Set hint 2 pieces
 		global.hint2 = [
-			[undefined, 130, 150], // pos 1
-			[undefined, 199, 150], // pos 2
-			[spr_hint_pink, 268, 150], // pos 3
-			[spr_hint_yellow, 130, 219], // pos 4 
-			[spr_hint_square, 199, 219], // pos 5
-			[spr_hint_pink, 268, 219], // pos 6 
+			[undefined, 130, 450], // pos 1
+			[undefined, 199, 450], // pos 2
+			[spr_hint_pink, 268, 450], // pos 3
+			[spr_hint_yellow, 130, 519], // pos 4 
+			[spr_hint_square, 199, 519], // pos 5
+			[spr_hint_pink, 268, 519], // pos 6 
 			[undefined, 130, 288], // pos 7
 			[undefined, 199, 288], // pos 8
 			[undefined, 268, 288], // pos 9
@@ -292,6 +292,187 @@ function load_hint(level){
 			[undefined, 268, 819], // pos 6
 			[undefined, 130, 888], // pos 7
 			[spr_hint_pink, 199, 888], // pos 8
+			[undefined, 268, 888], // pos 9
+		]
+		break;
+		case 5:
+			// Set Shapes
+		global.hint_shape_1 = 0;  // 3x3
+		global.hint_shape_2 = 15;  // carrot ^
+		global.hint_shape_3 = 13;  // plus +
+		
+		// Set hint 1 pieces
+		global.hint1 = [
+			[spr_hint_orange_triangle, 130, 150], // pos 1
+			[undefined, 199, 150], // pos 2
+			[spr_hint_pink_square, 268, 150], // pos 3
+			[undefined, 130, 219], // pos 4 
+			[undefined, 199, 219], // pos 5
+			[spr_hint_yellow, 268, 219], // pos 6 
+			[spr_hint_pink, 130, 288], // pos 7
+			[spr_hint_yellow_triangle, 199, 288], // pos 8
+			[undefined, 268, 288], // pos 9
+		]
+
+		// Set hint 2 pieces
+		global.hint2 = [
+			[undefined, 130, 450], // pos 1
+			[spr_hint_circle, 199, 450], // pos 2
+			[undefined, 268, 450], // pos 3
+			[spr_hint_triangle, 130, 519], // pos 4 
+			[undefined, 199, 519], // pos 5
+			[spr_hint_pink_circle, 268, 519], // pos 6 
+			[undefined, 130, 588], // pos 7
+			[undefined, 199, 588], // pos 8
+			[undefined, 268, 588], // pos 9
+		]
+
+		// Set hint 3 pieces
+		global.hint3 = [
+			[undefined, 130, 750], // pos 1
+			[spr_hint_square, 199, 750], // pos 2
+			[undefined, 268, 750], // pos 3
+			[undefined, 130, 819], // pos 4
+			[spr_hint_orange_circle, 199, 819], // pos 5
+			[spr_hint_square, 268, 819], // pos 6
+			[undefined, 130, 888], // pos 7
+			[undefined, 199, 888], // pos 8
+			[undefined, 268, 888], // pos 9
+		]
+		break;
+		case 6:
+			// Set Shapes
+		global.hint_shape_1 = 7;  // Vertical rectangle
+		global.hint_shape_2 = 16;  // Horixontal Rectangle
+		global.hint_shape_3 = 7;  // Veritcal Rectangle
+		
+		// Set hint 1 pieces
+		global.hint1 = [
+			[spr_hint_orange, 130, 150], // pos 1
+			[spr_hint_circle, 199, 150], // pos 2
+			[undefined, 268, 150], // pos 3
+			[spr_hint_orange, 130, 219], // pos 4 
+			[undefined, 199, 219], // pos 5
+			[undefined, 268, 219], // pos 6 
+			[spr_hint_square, 130, 288], // pos 7
+			[spr_hint_orange, 199, 288], // pos 8
+			[undefined, 268, 288], // pos 9
+		]
+
+		// Set hint 2 pieces
+		global.hint2 = [
+			[spr_hint_orange_triangle, 130, 450], // pos 1
+			[spr_hint_yellow, 199, 450], // pos 2
+			[undefined, 268, 450], // pos 3
+			[undefined, 130, 519], // pos 4 
+			[undefined, 199, 519], // pos 5
+			[undefined, 268, 519], // pos 6 
+			[undefined, 130, 588], // pos 7
+			[undefined, 199, 588], // pos 8
+			[undefined, 268, 588], // pos 9
+		]
+
+		// Set hint 3 pieces
+		global.hint3 = [
+			[spr_hint_yellow, 130, 750], // pos 1
+			[undefined, 199, 750], // pos 2
+			[undefined, 268, 750], // pos 3
+			[spr_hint_square, 130, 819], // pos 4
+			[spr_hint_square, 199, 819], // pos 5
+			[undefined, 268, 819], // pos 6
+			[spr_hint_triangle, 130, 888], // pos 7
+			[spr_hint_yellow, 199, 888], // pos 8
+			[undefined, 268, 888], // pos 9
+		]
+		break;
+		case 7:
+			// Set Shapes
+		global.hint_shape_1 = 0;  // 3x3
+		global.hint_shape_2 = 14;  // Cube
+		global.hint_shape_3 = 14;  // Cube
+		
+		// Set hint 1 pieces
+		global.hint1 = [
+			[spr_hint_square, 130, 150], // pos 1
+			[spr_hint_pink, 199, 150], // pos 2
+			[undefined, 268, 150], // pos 3
+			[spr_hint_orange, 130, 219], // pos 4 
+			[undefined, 199, 219], // pos 5
+			[undefined, 268, 219], // pos 6 
+			[spr_hint_circle, 130, 288], // pos 7
+			[undefined, 199, 288], // pos 8
+			[spr_hint_square, 268, 288], // pos 9
+		]
+
+		// Set hint 2 pieces
+		global.hint2 = [
+			[spr_hint_triangle, 130, 450], // pos 1
+			[undefined, 199, 450], // pos 2
+			[spr_hint_pink, 268, 450], // pos 3
+			[spr_hint_orange_triangle, 130, 519], // pos 4 
+			[undefined, 199, 519], // pos 5
+			[undefined, 268, 519], // pos 6 
+			[undefined, 130, 588], // pos 7
+			[undefined, 199, 588], // pos 8
+			[undefined, 268, 588], // pos 9
+		]
+
+		// Set hint 3 pieces
+		global.hint3 = [
+			[spr_hint_square, 130, 750], // pos 1
+			[undefined, 199, 750], // pos 2
+			[spr_hint_pink, 268, 750], // pos 3
+			[spr_hint_orange, 130, 819], // pos 4
+			[undefined, 199, 819], // pos 5
+			[undefined, 268, 819], // pos 6
+			[undefined, 130, 888], // pos 7
+			[undefined, 199, 888], // pos 8
+			[undefined, 268, 888], // pos 9
+		]
+		break;
+		
+		default:
+		// Clear template
+		global.hint_shape_1 = -1;
+		global.hint_shape_2 = -1;
+		global.hint_shape_3 = -1;  
+		
+		// Set hint 1 pieces
+		global.hint1 = [
+			[undefined, 130, 150], // pos 1
+			[undefined, 199, 150], // pos 2
+			[undefined, 268, 150], // pos 3
+			[undefined, 130, 219], // pos 4 
+			[undefined, 199, 219], // pos 5
+			[undefined, 268, 219], // pos 6 
+			[undefined, 130, 288], // pos 7
+			[undefined, 199, 288], // pos 8
+			[undefined, 268, 288], // pos 9
+		]
+
+		// Set hint 2 pieces
+		global.hint2 = [
+			[undefined, 130, 450], // pos 1
+			[undefined, 199, 450], // pos 2
+			[undefined, 268, 450], // pos 3
+			[undefined, 130, 519], // pos 4 
+			[undefined, 199, 519], // pos 5
+			[undefined, 268, 519], // pos 6 
+			[undefined, 130, 588], // pos 7
+			[undefined, 199, 588], // pos 8
+			[undefined, 268, 588], // pos 9
+		]
+
+		// Set hint 3 pieces
+		global.hint3 = [
+			[undefined, 130, 750], // pos 1
+			[undefined, 199, 750], // pos 2
+			[undefined, 268, 750], // pos 3
+			[undefined, 130, 819], // pos 4
+			[undefined, 199, 819], // pos 5
+			[undefined, 268, 819], // pos 6
+			[undefined, 130, 888], // pos 7
+			[undefined, 199, 888], // pos 8
 			[undefined, 268, 888], // pos 9
 		]
 		break;
