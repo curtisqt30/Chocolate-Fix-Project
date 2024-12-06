@@ -13,8 +13,6 @@ var offset_y = 110;
 
 //button music size
 var square_button_size = 100;
-var music_button_x = x - (square_button_size / 2) - 70;
-var music_button_y = y - (square_button_size / 2) - offset_y - 40;
 
 // Check if the mouse is clicked
 if (mouse_check_button_pressed(mb_left)) {
@@ -22,7 +20,9 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x >= (x - button_width / 2) && mouse_x <= (x + button_width / 2) &&
         mouse_y >= (y - button_height / 2 + move_up) && mouse_y <= (y + button_height / 2 + move_up)) {
         // Resume the game and unpause
-		audio_play_sound(snd_button_click, 5, false);
+		if (global.sfx_enabled) {
+			audio_play_sound(snd_button_click, 5, false);
+		}
         global.game_is_paused = false;
 		instance_destroy();  
     }
@@ -32,7 +32,9 @@ if (mouse_check_button_pressed(mb_left)) {
         mouse_y >= (y - button_height / 2 + offset_y + move_up) && mouse_y <= (y + button_height / 2 + offset_y + move_up)) {
         // Restart the level
         show_debug_message("Restarting the level...");
-		audio_play_sound(snd_button_click, 5, false);
+		if (global.sfx_enabled) {
+			audio_play_sound(snd_button_click, 5, false);
+		}
         global.game_is_paused = false;
         instance_destroy();  
         room_restart();  
@@ -42,23 +44,40 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x >= (x - button_width / 2) && mouse_x <= (x + button_width / 2) &&
         mouse_y >= (y - button_height / 2 + offset_y * 2 + move_up) && mouse_y <= (y + button_height / 2 + offset_y * 2 + move_up)) {     
         // Create the exit confirmation window
-		audio_play_sound(snd_button_click, 5, false);
+		if (global.sfx_enabled) {
+			audio_play_sound(snd_button_click, 5, false);
+		}
         instance_create_layer(x, y, "GUI", obj_exit_confirmation);
         // Destroy the pause menu so it doesn't overlap with the exit confirmation
         instance_destroy();  
     }
 	
 	// Button Music 
-	if (mouse_x >= music_button_x && mouse_x <= music_button_x + square_button_size &&
-		mouse_y >= music_button_y && mouse_y <= music_button_y + square_button_size) {
+	if (mouse_x >= (x - (square_button_size / 2) - 70) && mouse_x <= (x - (square_button_size / 2) - 70) + square_button_size &&
+		mouse_y >= (y - (square_button_size / 2) - offset_y - 40) && mouse_y <= (y - (square_button_size / 2) - offset_y - 40) + square_button_size) {
 		// Toggle music on/off
-		audio_play_sound(snd_button_click, 5, false);
+		if (global.sfx_enabled) {
+			audio_play_sound(snd_button_click, 5, false);
+		}
+
 		if (audio_is_playing(snd_music)) {
 			audio_stop_sound(snd_music);
 		} else {
 			audio_play_sound(snd_music, 1, true);
 		}
 	}
+	
+	// Button SFX
+	if (mouse_x >= (x - (square_button_size / 2) + 55) && mouse_x <= (x - (square_button_size / 2) + 55) + square_button_size &&
+        mouse_y >= (y - (square_button_size / 2) - offset_y - 40) && mouse_y <= ( y - (square_button_size / 2) - offset_y - 40) + square_button_size) {
+        if (global.sfx_enabled) {
+             global.sfx_enabled = false; //Turn off
+        } else {
+            global.sfx_enabled = true; // Turn On
+			audio_play_sound(snd_button_click, 5, false);
+        }
+    }
+
 }
 
 // Check ESC click

@@ -8,4 +8,6 @@ if (position_meeting(mouse_x, mouse_y, self) && !global.is_object_selected) {
 	global.is_object_selected = true;
 }
 
-audio_play_sound(snd_piece_click1, 10, false);
+if (global.sfx_enabled) {
+	audio_play_sound(snd_piece_click1, 10, false);
+}

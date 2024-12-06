@@ -56,6 +56,7 @@ else {
 global.is_object_selected = false;
 selected_object = noone;
 
-audio_play_sound(snd_piece_click2, 10, false);
-
+if (global.sfx_enabled) {
+	audio_play_sound(snd_piece_click2, 10, false);
+}
 

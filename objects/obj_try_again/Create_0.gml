@@ -8,4 +8,12 @@ scale_speed = 0.20;
 show_debug_message("exit confirmation created in the Create event");
 
 global.game_is_paused = true;
-audio_play_sound(snd_sfx_tryagain, 10, false);
+
+if (!variable_global_exists("sfx_enabled")) {
+    global.sfx_enabled = true;
+}
+
+if (global.sfx_enabled) {
+    audio_play_sound(snd_sfx_tryagain, 10, false);
+}
+

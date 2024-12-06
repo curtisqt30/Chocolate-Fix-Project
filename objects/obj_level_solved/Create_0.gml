@@ -12,4 +12,11 @@
 //}
 
 global.game_is_paused = true;
-audio_play_sound(snd_sfx_solved, 10, false);
+
+if (!variable_global_exists("sfx_enabled")) {
+    global.sfx_enabled = true;
+}
+
+if (global.sfx_enabled) {
+	audio_play_sound(snd_sfx_solved, 10, false);
+}

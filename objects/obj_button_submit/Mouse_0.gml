@@ -6,7 +6,9 @@ if (global.game_is_paused || instance_exists(obj_exit_confirmation)) {
 
 if (mouse_check_button_pressed(mb_left)) {
     // Play the sound once
-    audio_play_sound(snd_button_click, 5, false);
+	if (global.sfx_enabled) {
+		audio_play_sound(snd_button_click, 5, false);
+	}
 
     var level = get_current_level();
     var check = check_solution(level);
