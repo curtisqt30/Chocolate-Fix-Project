@@ -1,5 +1,5 @@
 
-draw_set_font(fnt_timer);
+/* draw_set_font(fnt_timer);
 draw_set_color(c_white);
 
 // ESC Key
@@ -27,5 +27,6 @@ draw_text(x + 100, y + 360, "Right-click to release piece");
 // Mouse Movement
 draw_sprite(spr_move_mouse, 0, x-45, y + 500);
 draw_text(x + 100, y + 460, "Move the mouse to navigate");
+*/
 
-
+draw_sprite_ext(tutorial_images[current_image_index], floor(current_frame), 0, 0, scale_x, scale_y, 0, c_white, 1);
