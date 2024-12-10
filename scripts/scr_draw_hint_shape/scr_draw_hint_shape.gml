@@ -183,7 +183,6 @@ function draw_hint_shape(shape_type, x_offset, y_offset, piece_size) {
             draw_sprite(global.hint_tile, 3, stem_x_pos, stem_y_pos);
 		
 		break;
-		
 		case 16: // smol rectangle
 			//  [x][x][ ]
 			//  [ ][ ][ ]
@@ -193,6 +192,52 @@ function draw_hint_shape(shape_type, x_offset, y_offset, piece_size) {
                 var y_pos = y_offset ; // Position it one row lower
                 draw_sprite(global.hint_tile, i, x_pos, y_pos);
             }
+		break;
+		case 17: // v
+			//  [ ][ ][ ]
+			//  [x][ ][x]
+			//  [ ][x][ ]
+              for (var i = 0; i < 3; i+= 2) {
+                var x_pos = x_offset + (i * piece_size);
+                var y_pos = y_offset + piece_size; // Lower the whole shape by one row
+                draw_sprite(global.hint_tile, i, x_pos, y_pos);
+            }
+            // Draw the stem of the T one row lower
+            var stem_x_pos = x_offset + piece_size; // Center the stem piece
+            var stem_y_pos = y_offset + (2 * piece_size); // Position the stem two rows down
+            draw_sprite(global.hint_tile, 3, stem_x_pos, stem_y_pos);
+		
+		break;
+		case 18: // tetris z
+			//  [ ][ ][x]
+			//  [ ][x][x]
+			//  [ ][x][ ]
+            for (var i = 0; i < 2; i++) { 
+                var x_pos = x_offset + (2 * piece_size); // Calculate x position
+                var y_pos = y_offset + (i * piece_size); // Position it one row lower
+                draw_sprite(global.hint_tile, i, x_pos, y_pos);
+            }
+			for (var i = 0; i < 2; i++) { 
+                var x_pos = x_offset + (piece_size); // Calculate x position
+                var y_pos = y_offset + piece_size + (i * piece_size); // Position it one row lower
+                draw_sprite(global.hint_tile, i, x_pos, y_pos);
+            }
+		break;
+		
+		case 19: // <
+			//  [ ][ ][x]
+			//  [ ][x][x]
+			//  [ ][ ][x]
+              for (var i = 0; i < 3; i++) {
+                var x_pos = x_offset + (2 * piece_size);
+                var y_pos = y_offset + (i * piece_size); // Lower the whole shape by one row
+                draw_sprite(global.hint_tile, i, x_pos, y_pos);
+            }
+            // Draw the stem of the T one row lower
+            var stem_x_pos = x_offset + piece_size; // Center the stem piece
+            var stem_y_pos = y_offset + piece_size; // Position the stem two rows down
+            draw_sprite(global.hint_tile, 3, stem_x_pos, stem_y_pos);
+		
 		break;
 	}
 }
