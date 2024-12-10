@@ -16,15 +16,13 @@ function check_solution(level){
     // If global.solved is still true, the puzzle is global.solved
     if (global.solved) {
 	    // Unlock the next level and update the current level's fastest time
-	    if (level != 8) {
+	    if (level != 9) {
 	        global.unlocked_levels[level] = true;
 	        if (global.fastest_times[level - 1] == -1 || global.timer < global.fastest_times[level - 1]) {
 	            global.fastest_times[level - 1] = global.timer;
 	        }
 	    }
 
-		
-        show_debug_message("Puzzle is solved!");
 		if(instance_exists(obj_button_submit)) {
 			instance_destroy(obj_button_submit);
 		}
@@ -35,8 +33,6 @@ function check_solution(level){
 			instance_destroy(obj_button_menu);
 		}
 		
-		//instance_create_layer(600, 50, "GUI", obj_level_solved);
-		//instance_create_layer(0, 0, "GUI", obj_blur_bg)
 		if(!instance_exists(obj_level_solved)) {
 			layer_sequence_create("GUI", 600, 50, Sequence1);
 		}
