@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_level_5",
-    "path":"sprites/spr_level_5/spr_level_5.yy",
+    "name":"spr_level_6",
+    "path":"sprites/spr_level_6/spr_level_6.yy",
   },
   "spriteMaskId":null,
   "visible":true,
