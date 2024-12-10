@@ -18,6 +18,11 @@ tutorial_images = [
 	Slide15,
 	Slide16,
 	Slide17,
+	Slide18,
+	Slide19,
+	Slide20,
+	Slide21,
+	Slide22,
 ];
 
 current_image_index = 0;

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Slide12",
   "bboxMode":0,
-  "bbox_bottom":404,
+  "bbox_bottom":1089,
   "bbox_left":0,
-  "bbox_right":719,
+  "bbox_right":1935,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"827a8c42-dbd0-43d5-9fc1-285138751ca0","name":"827a8c42-dbd0-43d5-9fc1-285138751ca0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c4b358d6-75b4-47d7-8096-e3ba52855b80","name":"c4b358d6-75b4-47d7-8096-e3ba52855b80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":405,
+  "height":1090,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ababc8cc-7b47-4d91-83a5-70f940255f11","blendMode":0,"displayName":"default","isLocked":false,"name":"ababc8cc-7b47-4d91-83a5-70f940255f11","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"227be019-2461-4467-8ac4-17d26662857d","blendMode":0,"displayName":"default","isLocked":false,"name":"227be019-2461-4467-8ac4-17d26662857d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Slide12",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"827a8c42-dbd0-43d5-9fc1-285138751ca0","path":"sprites/Slide12/Slide12.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"928fa279-b337-4a3c-8e43-ed82728097b4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c4b358d6-75b4-47d7-8096-e3ba52855b80","path":"sprites/Slide12/Slide12.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"afa7c856-d856-4d01-bcaa-f9275893312a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":720,
+  "width":1936,
 }
