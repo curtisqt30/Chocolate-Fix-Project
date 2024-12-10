@@ -1,7 +1,7 @@
 /// @description 
 depth = -1000;
-x = display_get_width() / 2;
-y = display_get_height() / 2;
+x = 1920 / 2;
+y = 1080 / 2;
 menu_scale = 0;
 target_scale = 1.1;
 scale_speed = 0.15;
